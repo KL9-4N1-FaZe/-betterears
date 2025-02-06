@@ -1,0 +1,30 @@
+.copertina{
+    background-image: url(images/chitarra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 3/1;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Esposizione{
+    padding-top: 8rem;
+}
+
+
+   .Esposizione {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight:  200 !important;
+    font-style: normal;
+  }
+  .navbar{
+    background-color: #DAAC5C;
+    position: fixed;
+    top:0;
+    left: 0;
+    opacity: 0.8;
+    width: 100%;
+    
+  }
