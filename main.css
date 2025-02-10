@@ -3,20 +3,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 3/1;
+
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat:ital,wght@0,200;1,200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.Esposizione{
+.spazio{
     padding-top: 8rem;
 }
+
+
+.row{
+  margin-top: 5rem;
+}
+
 
 
    .Esposizione {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight:  200 !important;
+    font-weight: 200;
     font-style: normal;
   }
   .navbar{
@@ -27,4 +34,10 @@
     opacity: 0.8;
     width: 100%;
     
+  }
+  .svg-inline--fa_fa-music_fa-3x{
+    display: var(--fa-display, inline-block);
+    height: 3.5rem;
+    overflow: visible;
+    vertical-align: -.125em;
   }
