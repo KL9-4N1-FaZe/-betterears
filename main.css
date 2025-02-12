@@ -3,15 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 3/1;
-
+  
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat:ital,wght@0,200;1,200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:ital,wght@0,100;1,100&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.spazio{
-    padding-top: 8rem;
-}
 
 
 .row{
@@ -23,9 +20,10 @@
    .Esposizione {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
   }
+
   .navbar{
     background-color: #DAAC5C;
     position: fixed;
@@ -41,3 +39,43 @@
     overflow: visible;
     vertical-align: -.125em;
   }
+
+  .text-muted{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+  }
+
+
+  .svg-inline--fa {
+    width: 16px; 
+    height: 16px; 
+}
+.svg-inline--fa {
+    font-size: 16px; 
+}
+
+.bg-dark a {
+  color: white;
+}
+
+.bg-dark a:hover {
+  color: #ddd; 
+}
+
+.justify-content-center{
+  align-items: center;
+}
+
+.colore{
+  background-color: white;
+}
+
+.scritta{
+  text-align: center;
+}
+
+.d-none{
+  
+  text-align: center;
+}
